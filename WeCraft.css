@@ -1,0 +1,137 @@
+h1 {
+    text-align:center;
+
+    
+}
+
+
+body {
+
+    background: linear-gradient(180deg, #82E0AA 3%, #006837 25%, #001f0f 100% );
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.8); 
+    padding: 20px; 
+    height: 1280px;
+}
+
+  
+nav {
+    background-color:#82E0AA; 
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Kolor tekstu */
+    padding: 10px 20px; /* Wewnętrzne marginesy */
+    margin: 0 10px; /* Zewnętrzne marginesy */
+    
+    
+    transition: background-color 0.3s ease; /* Efekt przejścia */
+}
+
+nav a:hover {
+    background-color: rgba(22, 160, 133, 0.2);
+}
+
+nav a + a {
+    margin-left: 10px;
+}
+
+nav a + a {
+    margin-left: -13px; /* Ustaw margines z lewej strony dla każdego linku, z wyjątkiem pierwszego */
+    border-left: 1px solid #fff; /* Dodaj pionową linię między linkami */
+}
+
+.głowna {
+    border: 2px solid #87e97e9d;
+    border-radius: 10px;
+    background-color: #87e97e9d 25%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.głowna h2 {
+    color: #82E0AA ;
+}
+
+.banner {
+    width: 100%;
+    max-width: 600px; /* Maksymalna szerokość banera */
+    margin: 20px auto; /* Wyśrodkowanie */
+    display: block;
+}
+
+header img {
+    width: 5%;
+    display: block;
+    margin: auto;
+}
+
+.ramka-opinii {
+    border: 6px solid #292929;
+    background-color: #b4b4b4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width:750px; 
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 40px;
+    
+}
+.Gracz {
+    font-size: 16px; /* Dostosuj rozmiar tekstu według potrzeb */
+    line-height: 0; /* Dostosuj odstęp między linijkami (line-height) według potrzeb */
+}
+.opinia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align:left;
+    
+    
+}
+
+
+.zdjecie-uzytkownika {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.tekst-opinii {
+    max-width: 400px;
+}
+
+.Gracz2 {
+    font-size: 16px; /* Dostosuj rozmiar tekstu według potrzeb */
+    line-height: 0; /* Dostosuj odstęp między linijkami (line-height) według potrzeb */
+
+}
+
+.Opinia2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+.zdjecie-uzytkownika2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.tekst-opinii2 {
+    max-width: 400px;
+}
+
+
+
